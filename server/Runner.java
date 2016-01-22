@@ -1,7 +1,3 @@
-/*
- * 
- */
-
 package server;
  
 import java.io.*;
