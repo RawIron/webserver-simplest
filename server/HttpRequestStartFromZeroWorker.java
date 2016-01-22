@@ -2,15 +2,15 @@
  * 
  */
 
-package simpleWebServer;
+package server;
  
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import static simpleWebServer.HttpConstants.*;
-import simpleWebServer.WorkerPool;
-import simpleWebServer.ReverseProxyServer;
+import static server.HttpConstants.*;
+import server.WorkerPool;
+import server.ReverseProxyServer;
 
 
 class HttpRequestStartFromZeroWorkerPool extends WorkerPool {

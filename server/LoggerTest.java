@@ -1,8 +1,8 @@
 
-package simpleWebServer;
+package server;
 
 import junit.framework.TestCase;
-import simpleWebServer.Logger;
+import server.Logger;
 
 
 public class LoggerTest extends TestCase {

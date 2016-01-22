@@ -2,16 +2,16 @@
  * 
  */
 
-package simpleWebServer;
+package server;
  
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import simpleWebServer.Config;
-import simpleWebServer.Logger;
-import simpleWebServer.SocketServer;
-import simpleWebServer.HttpRequestStreamWorkerPool;
+import server.Config;
+import server.Logger;
+import server.SocketServer;
+import server.HttpRequestStreamWorker;
 
 
 class Runner {

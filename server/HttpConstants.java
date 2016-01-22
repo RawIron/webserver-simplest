@@ -1,5 +1,5 @@
 
-package simpleWebServer;
+package server;
 
 class HttpConstants {
     /** request methods */

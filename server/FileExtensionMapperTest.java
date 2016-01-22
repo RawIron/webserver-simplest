@@ -1,8 +1,8 @@
 
-package simpleWebServer;
+package server;
 
 import junit.framework.TestCase;
-import simpleWebServer.FileExtensionToContentTypeMapper;
+import server.FileExtensionToContentTypeMapper;
 
 
 public class FileExtensionMapperTest extends TestCase {

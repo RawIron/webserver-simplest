@@ -2,7 +2,7 @@
  * 
  */
  
-package simpleWebServer;
+package server;
 
 import java.io.PrintStream;
 import java.io.BufferedOutputStream;

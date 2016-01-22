@@ -2,15 +2,15 @@
  *
  */
 
-package simpleWebServer;
+package server;
  
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import static simpleWebServer.HttpConstants.*;
-import simpleWebServer.FileExtensionToContentTypeMapper;
-import simpleWebServer.WorkerPool;
+import static server.HttpConstants.*;
+import server.FileExtensionToContentTypeMapper;
+import server.WorkerPool;
 
 
 class ReverseProxyServer {

@@ -2,33 +2,34 @@
  * 
  */
 
-package simpleWebServer;
+package server;
  
 import java.io.*;
-import java.net.*;
 import java.util.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
 
-import static simpleWebServer.HttpConstants.*;
-import simpleWebServer.WorkerPool;
-import simpleWebServer.ReverseProxyServer;
+import static server.HttpConstants.*;
+import server.WorkerPool;
+import server.ReverseProxyServer;
 
 
-class HttpRequestStreamWorkerPool extends WorkerPool {
+class HttpRequestServletWorkerPool extends WorkerPool {
 
-    public HttpRequestStreamWorkerPool(Config settings) {
+    public HttpRequestServletWorkerPool(Config settings) {
         super(settings);
     }
 
     protected Worker createWorker(WorkerPool pool, Config settings) {
-        Worker w = new HttpRequestStreamWorker(pool, settings);
+        Worker w = new HttpRequestServletWorker(pool, settings);
         return w;
     }
 }
 
 
-class HttpRequestStreamWorker extends Worker {
+class HttpRequestServletWorker extends Worker {
 
-    public HttpRequestStreamWorker(WorkerPool coworkers, Config config) {
+    public HttpRequestServletWorker(WorkerPool coworkers, Config config) {
         super(coworkers, config);
     }
 

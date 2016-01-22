@@ -2,7 +2,7 @@
  * server configuration is in properties file
  */
 
-package simpleWebServer;
+package server;
  
 import java.io.*;
 import java.net.*;

@@ -1,8 +1,8 @@
 
-package simpleWebServer;
+package server;
 
 import junit.framework.TestCase;
-import static simpleWebServer.HttpConstants.*;
+import static server.HttpConstants.*;
 
 
 public class HttpConstantsTest extends TestCase {
