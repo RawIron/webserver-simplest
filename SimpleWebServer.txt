@@ -1,0 +1,7 @@
+# a sample properties file for the simple
+# web server example.  Change these to
+# suit your environment.
+root=/var/www
+workers=5
+timeout=10000
+log=/tmp/www.log
