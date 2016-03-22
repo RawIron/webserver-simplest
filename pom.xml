@@ -38,8 +38,8 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>server</sourceDirectory>
-        <testSourceDirectory>server</testSourceDirectory>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>src</testSourceDirectory>
         <resources>
             <resource>
                 <directory>src/resources</directory>
