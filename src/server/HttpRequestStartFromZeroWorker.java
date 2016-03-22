@@ -1,9 +1,5 @@
-/*
- * 
- */
-
 package server;
- 
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -165,4 +161,3 @@ class HttpRequestStartFromZeroWorker extends Worker {
         return targ;
     }
 }
-

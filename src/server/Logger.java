@@ -1,7 +1,3 @@
-/*
- * 
- */
- 
 package server;
 
 import java.io.PrintStream;
@@ -101,4 +97,3 @@ class ConsoleLogger extends Logger {
         consoleHandler.publish(r);
     }
 }
-

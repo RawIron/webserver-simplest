@@ -1,4 +1,3 @@
-
 package server;
 
 import junit.framework.TestCase;

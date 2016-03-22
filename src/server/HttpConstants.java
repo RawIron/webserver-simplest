@@ -1,5 +1,5 @@
-
 package server;
+
 
 class HttpConstants {
     /** request methods */
@@ -7,7 +7,7 @@ class HttpConstants {
     public static final int HTTP_GET = 1;
     public static final int HTTP_PUT = 2;
     public static final int HTTP_POST = 3;
-    
+
     /** 2XX: generally "OK" */
     public static final int HTTP_OK = 200;
     public static final int HTTP_CREATED = 201;
