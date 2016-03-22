@@ -4,12 +4,13 @@
 
 run the tests with
 ```
-make test
+mvn test
 ```
 
 start the web server
 ```
-make Runner
+mvn compile
+mvn exec:java -Dexec.mainClass='server.Runner'
 ```
 
 open the test page in your browser
