@@ -1,9 +1,5 @@
-/*
- *
- */
-
 package server;
- 
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -16,7 +12,7 @@ abstract class WorkerPool {
     public WorkerPool(Config config) {
         this.settings = config;
     }
-    
+
     public void init() {
         synchronized (workerPool) {
             for (int i = 0; i < settings.maxWorkersInPool; ++i) {
