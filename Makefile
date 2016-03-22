@@ -22,6 +22,7 @@ LoggerTest.class: LoggerTest.java junit.jar
 LoggerTest:	LoggerTest.class junit.jar
 	java -classpath $(workspace)/junit.jar:$(project) junit.textui.TestRunner server.LoggerTest
 
+test: LoggerTest
 
 clean:
 	rm -f $(target)/*.class
